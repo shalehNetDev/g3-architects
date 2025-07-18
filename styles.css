@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.work-sans-font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+/* shared styles */
+.displayFlex{
+    display: flex;
+}
+.gray{
+    color: #727272;
+}
+.backgroundColor{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.navbar{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.btnPrimary{
+    background-color: #ff900e;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    width: 10rem;
+    height: 3rem;
+}
+.btnPrimary:hover{
+    background-color: #a70eff;
+    color: white;
+    transition: 0.1s;
+    cursor: pointer;
+}
+span{
+    color: ff900e;
+    font-weight: 700;
+}
+.featureBlocks{
+    box-shadow: 4px 1px 10px 1px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.factsCard{
+    border: 1px solid #ff900e;
+    padding: 15px;
+    width: 10rem;
+    border-radius: 10px;
+    text-align: center;
+}
+/* End */
+
+.navLinksLi{
+    list-style: none;
+    margin: 0 15px;
+    
+}
+.navLinksOptions:hover{
+    background-color: #727272;
+    color: white;
+    transition: 0.1s;
+    padding: 7px;
+    border-radius: 2px;
+}
+.navLinksOptions{
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbarLogo h3{
+    font-size: 2.8rem;
+}
+/* banner */
+.banner{
+    text-align: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+
+}
+.banner h1{
+    font-size: 4rem;
+    margin: 2rem 0;
+}
+.banner p{
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+.bannerImage{
+    width: 100%;
+    /* height: 40rem; */
+}
+.bannerButton{
+    margin: 0 0 2rem 0;
+}
+
+/* teamSection */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+.team{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 5rem;
+}
+
+.teamImage {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-right: 50px;
+}
+.teamContent h1{
+    font-weight: 600;
+}
+.h1Special{
+    font-weight: 800;
+    color: black;
+}
+
+/* features */
+.features{
+    margin: 5rem;
+}
+
+.featuresContenth1{
+    border-left: 5px solid orange;
+}
+
+.featuresContent h1{
+    margin-left: 20px;
+}
+.featuresBlocksContainer{
+    width: 80%;
+}
+.btnSeceondary{
+    height: 10rem;
+    width: 12rem;
+    font-size: 1.1rem;
+    margin-top: -90px;
+    margin-left: -90px;
+    background-color:#ff900e;
+    border: none;
+    border-radius: 10px;
+}
+.featureImage>button>span{
+    font-weight: 800;
+    color: white;
+    font-size: 2rem;
+}
+.factsCardContainer{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.factsCard h2{
+    margin: 0px;
+}
+.factsCard p{
+    margin: 0px;
+}
+.factsContainer p{
+    margin-bottom: 30px;
+}
+
+.sponsorsContainer{
+    text-align: center;
+    margin: 5rem 0;
+}
+.sponsorsContainer p{
+    margin-bottom: 0px;
+}
+.sponsors{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sponsors img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    margin: 0px 20px;
+}
+footer{
+    background-color: rgba(255, 144, 14, 0.1);
+    padding: 20px 0;
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
