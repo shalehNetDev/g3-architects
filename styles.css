@@ -234,21 +234,23 @@ footer{
       .team{
         flex-direction: column;
         text-align: center;
-        margin: 0;
+        margin: 20px 20px 0 20px;
       }
       .teamImage{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+        
       }
+
       .teamContent p{
-        margin: 0 9rem;
+        margin: 0 3rem;
       }
       .teamContent button{
         margin-top: 30px;
       }
       .features{
         flex-direction: column;
-        margin-left: 8rem;
+        margin-left: 6.5rem;
       }
       .featureImage img{
         width: 100%;
@@ -262,13 +264,19 @@ footer{
       }
       .featuresBlocksContainer{
         flex-direction: column;
-        margin-left: 30px;
+        margin-left: 0px;
+        width: 110%;
       }
       .factsContainer{
-        margin: 0 12rem;
+        margin: 0 7rem;
+        width: 50%;
       }
       .factsCardContainer{
         flex-direction: column;
+        margin-bottom: 10px;
+      }
+      .factsCard{
+        margin-bottom: 10px;
       }
       .sponsors{
         flex-direction: column;
