@@ -203,3 +203,86 @@ footer{
     text-align: center;
 }
 
+
+/* Responsive Styles for Tablet and Mobile */
+
+   @media screen and (max-width:576px){
+    
+     header, .navbar{
+      flex-direction: column;
+      align-items: center;
+      max-width: 100%;
+      width: 100%;
+      margin: 0;
+      padding: 0 ;
+     }
+     .navLinks ul{
+      flex-direction: column;
+      align-items: center;
+     }
+     .banner h1{
+      font-size: 2rem;
+      margin: 0 2rem;
+     }
+      .banner p{
+        margin: 0px 90px 20px 90px;
+      }
+      .bannerImage{
+        width: 90%;
+        height: auto;
+      }
+      .team{
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+      }
+      .teamImage{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+      }
+      .teamContent p{
+        margin: 0 9rem;
+      }
+      .teamContent button{
+        margin-top: 30px;
+      }
+      .features{
+        flex-direction: column;
+        margin-left: 8rem;
+      }
+      .featureImage img{
+        width: 100%;
+        height: auto;
+      }
+      .btnSeceondary{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 0;
+      }
+      .featuresBlocksContainer{
+        flex-direction: column;
+        margin-left: 30px;
+      }
+      .factsContainer{
+        margin: 0 12rem;
+      }
+      .factsCardContainer{
+        flex-direction: column;
+      }
+      .sponsors{
+        flex-direction: column;
+      }
+      .sponsorsContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .sponsorsContainer p{
+        margin: 0 50px;
+      }
+      footer{
+        padding: 30px;
+      }
+
+   }
